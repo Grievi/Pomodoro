@@ -2,6 +2,7 @@ from app.auth.v1.models.user_models import UserModels
 from flask import request
 from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
+from app.auth.v1.utilities.timer import UserTimer
 
 parser = RequestParser()
 
